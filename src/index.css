@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+    .shadow-soft {
+      box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2), -10px -10px 30px rgba(255, 255, 255, 0.3);
+    }
+    .shadow-soft-hover {
+      box-shadow: 15px 15px 35px rgba(0, 0, 0, 0.25), -15px -15px 35px rgba(255, 255, 255, 0.4);
+    }
+  }
